@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- INTERFAZ 1 -->
+    <LinearLayout
+        android:id="@+id/interfaz1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/boton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preciosa"/>
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone" />
+    </LinearLayout>
+
+    <!-- INTERFAZ 2 -->
+    <LinearLayout
+        android:id="@+id/interfaz2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Al primer programa"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/boton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precioname"/>
+    </LinearLayout>
+
+    <!-- INTERFAZ 3 -->
+    <LinearLayout
+        android:id="@+id/interfaz3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Se presentara un tema"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/boton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precioname"/>
+    </LinearLayout>
+
+    <!-- INTERFAZ 4 -->}
+
+    <!-- TITULO -->
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8 DE MARZO"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:id="@+id/interfaz4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El Día Internacional de la Mujer,
+            conmemorado el 8 de marzo, es una fecha dedicada
+             a reconocer la lucha histórica de las mujeres por
+             la igualdad de derechos y la participación en
+             la sociedad. Su origen se remonta a principios del
+             siglo XX, marcado por movimientos obreros y demandas
+              de mejores condiciones laborales para las mujeres.
+              La fecha ha sido oficialmente reconocida por la ONU
+               desde 1975 y se utiliza para visibilizar la
+               desigualdad de género y reivindicar derechos para
+               las mujeres en diversos ámbitos."
+            android:textSize="24sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
